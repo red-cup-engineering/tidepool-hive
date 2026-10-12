@@ -1,0 +1,23 @@
+{
+  "name": "@red-cup-engineering/tidepool-hive",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tidepool Hive site: custom_json cell codec, HBD-savings sleeve reader, release-cell emitter, head witness.",
+  "engines": {
+    "node": ">=24"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./cell-codec": "./src/cell-codec.mjs",
+    "./envelope": "./src/envelope.mjs",
+    "./schema": "./src/schema.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@red-cup-engineering/tidepool-evm": "workspace:*"
+  },
+  "license": "UNLICENSED"
+}
