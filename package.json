@@ -19,5 +19,9 @@
   "dependencies": {
     "@red-cup-engineering/tidepool-evm": "workspace:*"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/tidepool-hive.git"
+  }
 }
