@@ -19,9 +19,13 @@
   "dependencies": {
     "@red-cup-engineering/tidepool-evm": "workspace:*"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/tidepool-hive.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
